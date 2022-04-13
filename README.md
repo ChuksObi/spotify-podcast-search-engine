@@ -1,4 +1,4 @@
-# Spotify Podcast Search Engine
+# Search engine based on spotify podcast
 This project aims to create a search engine which returns relevant podcast episodes from the Spotify Podcast dataset based upon podcast user queries. These queries may represent a user wishing to find a known podcast, an episode which they previously listened to (but cannot remember the name of), or searching based upon a topic. We aim to use metadata to index podcast episodes using PyTerrier’s indexer, which includes stop-word removal and stemming functionality. PyTerrier also provides an experiment function, which we intend to use to test the performance of a variety of models in retrieving relevant podcasts using metadata. Our search engine will then be built using the best-performing model based on mean average precision (MAP) and normalised discounted cumulative gain (NDCG). The finished product will allow users to search for podcasts in the dataset with their own queries.
 
 ## Dataset
