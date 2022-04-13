@@ -3,3 +3,5 @@ This project aims to create a search engine which returns relevant podcast episo
 
 ## Dataset
 The Spotify english language dataset consists of 100,000 episodes from different podcast shows on Spotify. The dataset is available for research purposes, it was initially created for use in the the [TREC Podcasts Track](https://trecpodcasts.github.io) shared tasks. To access this dataset, please [request for spotify from spotify](https://podcastsdataset.byspotify.com). Specifically, we aim to use show/episode names and descriptions to identify relevant documents. Ground truth will be labelled from the TREC Podcasts Track 2020 training set. Relevance judgements score podcast sections on a scale of 0-4. We will use these relevance judgements as if they represent the relevance of the entire podcast episode.
+
+## Getting Started
